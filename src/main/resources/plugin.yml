@@ -1,0 +1,14 @@
+name: ElytraBuster
+version: 1.0
+main: com.g2806.ElytraBuster.ElytraBusterPlugin
+api-version: 1.21
+description: Special TNT with 4 levels of increasing speed and a special level that explodes on contact. Rises 20 blocks, floats, chases elytra players persistently with a title warning, and explodes after 15 seconds with musical notes. Craftable and obtainable via command for OPs.
+commands:
+  elytrabustertnt:
+    description: Gives the player a special ElytraBuster TNT of the specified level (1-4).
+    usage: /<command> <level>
+    permission: elytrabuster.tnt
+permissions:
+  elytrabuster.tnt:
+    description: Allows use of the /elytrabustertnt command.
+    default: op
